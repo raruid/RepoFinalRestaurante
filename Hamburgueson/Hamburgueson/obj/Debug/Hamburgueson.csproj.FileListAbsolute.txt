@@ -1,0 +1,51 @@
+C:\Users\2 Dam\Desktop\Visual Studio\Hamburgueson\Hamburgueson\bin\Debug\Hamburgueson.exe.config
+C:\Users\2 Dam\Desktop\Visual Studio\Hamburgueson\Hamburgueson\bin\Debug\Hamburgueson.exe
+C:\Users\2 Dam\Desktop\Visual Studio\Hamburgueson\Hamburgueson\bin\Debug\Hamburgueson.pdb
+C:\Users\2 Dam\Desktop\Visual Studio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.csprojAssemblyReference.cache
+C:\Users\2 Dam\Desktop\Visual Studio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.Form1.resources
+C:\Users\2 Dam\Desktop\Visual Studio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.Properties.Resources.resources
+C:\Users\2 Dam\Desktop\Visual Studio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.csproj.GenerateResource.cache
+C:\Users\2 Dam\Desktop\Visual Studio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.csproj.CoreCompileInputs.cache
+C:\Users\2 Dam\Desktop\Visual Studio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.exe
+C:\Users\2 Dam\Desktop\Visual Studio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.pdb
+C:\Users\Usuario\Desktop\VisualStudio\Hamburgueson\Hamburgueson\bin\Debug\Hamburgueson.exe.config
+C:\Users\Usuario\Desktop\VisualStudio\Hamburgueson\Hamburgueson\bin\Debug\Hamburgueson.exe
+C:\Users\Usuario\Desktop\VisualStudio\Hamburgueson\Hamburgueson\bin\Debug\Hamburgueson.pdb
+C:\Users\Usuario\Desktop\VisualStudio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\VisualStudio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.Form1.resources
+C:\Users\Usuario\Desktop\VisualStudio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.Properties.Resources.resources
+C:\Users\Usuario\Desktop\VisualStudio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\VisualStudio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\VisualStudio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.exe
+C:\Users\Usuario\Desktop\VisualStudio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.pdb
+C:\Users\Usuario\Desktop\VisualStudio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.FirstCustomControl.resources
+C:\Users\Usuario\Desktop\VisualStudio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.SecondCustomControl.resources
+C:\Users\Usuario\Desktop\2ºDAM\VisualStudio\Hamburgueson\Hamburgueson\bin\Debug\Hamburgueson.exe.config
+C:\Users\Usuario\Desktop\2ºDAM\VisualStudio\Hamburgueson\Hamburgueson\bin\Debug\Hamburgueson.exe
+C:\Users\Usuario\Desktop\2ºDAM\VisualStudio\Hamburgueson\Hamburgueson\bin\Debug\Hamburgueson.pdb
+C:\Users\Usuario\Desktop\2ºDAM\VisualStudio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\2ºDAM\VisualStudio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.FirstCustomControl.resources
+C:\Users\Usuario\Desktop\2ºDAM\VisualStudio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.Form1.resources
+C:\Users\Usuario\Desktop\2ºDAM\VisualStudio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.Properties.Resources.resources
+C:\Users\Usuario\Desktop\2ºDAM\VisualStudio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.SecondCustomControl.resources
+C:\Users\Usuario\Desktop\2ºDAM\VisualStudio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\2ºDAM\VisualStudio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\2ºDAM\VisualStudio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.exe
+C:\Users\Usuario\Desktop\2ºDAM\VisualStudio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.pdb
+C:\Users\Usuario\Desktop\2ºDAM\VisualStudio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.BebidasControler.resources
+C:\Users\Usuario\Desktop\2ºDAM\VisualStudio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.OtrosController.resources
+C:\Users\Usuario\Desktop\2ºDAM\VisualStudio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.PizzaController.resources
+C:\Users\Usuario\Desktop\2ºDAM\VisualStudio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.Carrito.resources
+C:\Users\Usuario\Desktop\2ºDAM\VisualStudio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.HamBasicaContr.resources
+C:\Users\Usuario\Desktop\2ºDAM\VisualStudio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.HamCompletaCont.resources
+C:\Users\Usuario\Desktop\2ºDAM\VisualStudio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.Ham3Contr.resources
+C:\Users\Usuario\Desktop\2ºDAM\VisualStudio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.HamMounstCont.resources
+C:\Users\Usuario\Desktop\2ºDAM\VisualStudio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.PizzaMustCont.resources
+C:\Users\Usuario\Desktop\2ºDAM\VisualStudio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.PizzaPepeContr.resources
+C:\Users\Usuario\Desktop\2ºDAM\VisualStudio\Hamburgueson\Hamburgueson\obj\Debug\VentanaHamburguesa.Form1.resources
+C:\Users\Usuario\Desktop\2ºDAM\VisualStudio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.ArosCebContr.resources
+C:\Users\Usuario\Desktop\2ºDAM\VisualStudio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.Nuggets.resources
+C:\Users\Usuario\Desktop\2ºDAM\VisualStudio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.PatatasContr.resources
+C:\Users\Usuario\Desktop\2ºDAM\VisualStudio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.PizzaMustanaContr.resources
+C:\Users\Usuario\Desktop\2ºDAM\VisualStudio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.PizzaQuesosContr.resources
+C:\Users\Usuario\Desktop\2ºDAM\VisualStudio\Hamburgueson\Hamburgueson\obj\Debug\Hamburgueson.Take_away.resources

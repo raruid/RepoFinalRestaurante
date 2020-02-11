@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B9EEE23B-B00B-4351-8663-F5AB5F68D3C5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Hamburgueson</RootNamespace>
+    <AssemblyName>Hamburgueson</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\..\..\PizzasBurgers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\..\..\..\PizzasBurgers.Designer.cs">
+      <DependentUpon>PizzasBurgers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArosCebContr.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ArosCebContr.Designer.cs">
+      <DependentUpon>ArosCebContr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BebidasControler.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BebidasControler.Designer.cs">
+      <DependentUpon>BebidasControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Carrito.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Carrito.Designer.cs">
+      <DependentUpon>Carrito.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Elemento.cs" />
+    <Compile Include="FirstCustomControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FirstCustomControl.Designer.cs">
+      <DependentUpon>FirstCustomControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ham3Contr.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ham3Contr.Designer.cs">
+      <DependentUpon>Ham3Contr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HamBasicaContr.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HamBasicaContr.Designer.cs">
+      <DependentUpon>HamBasicaContr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hamburguesa.cs" />
+    <Compile Include="HamburguesaBacon.cs" />
+    <Compile Include="HamCompletaCont.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HamCompletaCont.Designer.cs">
+      <DependentUpon>HamCompletaCont.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HamMounstCont.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HamMounstCont.Designer.cs">
+      <DependentUpon>HamMounstCont.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Complemento.cs" />
+    <Compile Include="Nuggets.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Nuggets.Designer.cs">
+      <DependentUpon>Nuggets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OtrosController.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OtrosController.Designer.cs">
+      <DependentUpon>OtrosController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatatasContr.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PatatasContr.Designer.cs">
+      <DependentUpon>PatatasContr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pizza.cs" />
+    <Compile Include="PizzaController.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PizzaController.Designer.cs">
+      <DependentUpon>PizzaController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PizzaMustanaContr.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PizzaMustanaContr.Designer.cs">
+      <DependentUpon>PizzaMustanaContr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PizzaMustCont.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PizzaMustCont.Designer.cs">
+      <DependentUpon>PizzaMustCont.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PizzaPepeContr.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PizzaPepeContr.Designer.cs">
+      <DependentUpon>PizzaPepeContr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PizzaQuesosContr.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PizzaQuesosContr.Designer.cs">
+      <DependentUpon>PizzaQuesosContr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PizzaVegana.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="..\..\..\..\Carpeta\SecondCustomControl.cs">
+      <SubType>UserControl</SubType>
+      <Link>SecondCustomControl.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\Carpeta\SecondCustomControl.Designer.cs">
+      <DependentUpon>SecondCustomControl.cs</DependentUpon>
+      <Link>SecondCustomControl.Designer.cs</Link>
+    </Compile>
+    <Compile Include="Take away.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Take away.Designer.cs">
+      <DependentUpon>Take away.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="..\..\..\..\PizzasBurgers.resx">
+      <DependentUpon>PizzasBurgers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArosCebContr.resx">
+      <DependentUpon>ArosCebContr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BebidasControler.resx">
+      <DependentUpon>BebidasControler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Carrito.resx">
+      <DependentUpon>Carrito.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FirstCustomControl.resx">
+      <DependentUpon>FirstCustomControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ham3Contr.resx">
+      <DependentUpon>Ham3Contr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HamBasicaContr.resx">
+      <DependentUpon>HamBasicaContr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HamCompletaCont.resx">
+      <DependentUpon>HamCompletaCont.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HamMounstCont.resx">
+      <DependentUpon>HamMounstCont.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nuggets.resx">
+      <DependentUpon>Nuggets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtrosController.resx">
+      <DependentUpon>OtrosController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatatasContr.resx">
+      <DependentUpon>PatatasContr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PizzaController.resx">
+      <DependentUpon>PizzaController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PizzaMustanaContr.resx">
+      <DependentUpon>PizzaMustanaContr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PizzaMustCont.resx">
+      <DependentUpon>PizzaMustCont.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PizzaPepeContr.resx">
+      <DependentUpon>PizzaPepeContr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PizzaQuesosContr.resx">
+      <DependentUpon>PizzaQuesosContr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\..\..\Carpeta\SecondCustomControl.resx">
+      <DependentUpon>SecondCustomControl.cs</DependentUpon>
+      <Link>SecondCustomControl.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Take away.resx">
+      <DependentUpon>Take away.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons8_home_page_filled_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons8_dog_house_filled_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons8_home_page_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons8_hamburger_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons8_book_stack_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons8_truck_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons8_take_away_food_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons8_coins_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons8_customer_support_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons8_facebook_filled_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons8_twitter_filled_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons8_instagram_filled_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons8_appointment_reminders_filled_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons8_settings_filled_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons8_exit_filled_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coca-cola-logo-6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo-cervezas-alhambra-14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_Fanta_2016.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5ae22cf533b73fa43b1a8930.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_hamburger_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_pizza_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_close_window_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_pizza_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_french_fries_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_beer_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_shopping_cart_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_close_window_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_close_window_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\269673431006211.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\derwent-park-pizza-5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bc88d440af7e6fd3182954975306f790.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\burger_sandwich_PNG4134.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bacon-burger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\580b57fcd9996e24bc43c1a8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_new_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\burger_sandwich_PNG41341.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f9ce5cb5a15cc2cd4d5df19c4aff2858-queso-plano-by-vexels.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lechuga-dibujo-png-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4c639f98b68c1e4ef3678089d00739d0-dibujos-animados-de-tomates-by-vexels.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_forward_filled_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_back_filled_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bacon-burger1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\580b57fcd9996e24bc43c1a81.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2696734310062111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hoja-dibujo-png-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6_AROS_CEBOLLA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\585abfc54f6ae202fedf2935.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken-nuggets-png-chicken-nuggets-nutrition-500.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\derwent-park-pizza-51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pepperoni-transparent-clip-art-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1cda0f8c1fffd6ecaf6b8687a509fe46-icono-de-dibujos-animados-de-setas-by-vexels.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\67338ec18bf7513bd0687a6e82504d52-icono-de-color-br--coli-by-vexels.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bc88d440af7e6fd3182954975306f7901.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6_AROS_CEBOLLA1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\325534.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\276209099007211.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_exclamation_mark_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\96160.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken-nuggets-png-chicken-nuggets-nutrition-5001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\585abfc54f6ae202fedf29351.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_delete_sign_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\curso-de-gestion-de-alergenos-en-la-hosteleria-cadiz.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
